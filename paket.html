@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daftar Paket Camping Murah - CAMPING BATU</title>
+    <meta name="description"
+        content="Daftar informasi paket camping Camping Batu. Pilihan paket: Basic Camping (Hemat), Full Camping (Lengkap), dan Corporate Gathering (All-in). Booking sekarang!">
+    <meta name="keywords"
+        content="info camping sentul, paket camping murah, info main camping, paket corporate gathering, sewa lapangan camping, campingbatu price list">
+    <meta name="author" content="CAMPING BATU Sales Team">
+    
+    <link rel="preload" as="image" href="asset/IMG_20260218_133501_187.webp">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </noscript>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* --- DESIGN SYSTEM (DARK TACTICAL) --- */
+        :root {
+            --bg-deep: #0B0F19;
+            --bg-panel: #161F32;
+            --accent-blue: #3B82F6;
+            --accent-gold: #F59E0B;
+            --text-white: #FFFFFF;
+            --text-light: #E2E8F0;
+            --text-grey: #94A3B8;
+            --border-line: rgba(255, 255, 255, 0.15);
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            padding-top: 70px;
+            /* Navbar pendek */
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        .nav-link,
+        .btn,
+        .price-tag {
+            font-family: 'Barlow Condensed', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-white);
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: rgba(11, 15, 25, 0.95);
+            border-bottom: 1px solid var(--border-line);
+            padding: 0.5rem 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 800;
+            font-style: italic;
+            color: white !important;
+        }
+
+        .navbar-brand span {
+            color: var(--accent-blue);
+        }
+
+        .nav-link {
+            color: var(--text-grey) !important;
+            font-weight: 600;
+            margin: 0 10px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--accent-blue) !important;
+        }
+
+        .btn-primary-custom {
+            background-color: var(--accent-blue);
+            color: white !important;
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-weight: 700;
+            border: none;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .btn-primary-custom:hover {
+            background-color: #2563eb;
+            transform: translateY(-2px);
+        }
+
+        /* HERO MINI */
+        .page-header {
+            background: linear-gradient(to bottom, rgba(11, 15, 25, 0.8), var(--bg-deep)), url('asset/IMG_20260218_133547_611.webp');
+            background-size: cover;
+            background-position: center;
+            /* REVISI: Padding atas dikurangi jadi 40px */
+            padding: 40px 0 60px;
+            border-bottom: 1px solid var(--border-line);
+        }
+
+        /* --- PRICING CARDS --- */
+        .pricing-card {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-line);
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            transition: 0.3s;
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--accent-blue);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+        }
+
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--accent-blue);
+        }
+
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--accent-blue);
+            margin: 10px 0;
+        }
+
+        .price-unit {
+            font-size: 1rem;
+            color: var(--text-grey);
+            font-family: 'Inter';
+            font-weight: 400;
+            text-transform: capitalize;
+        }
+
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            text-align: left;
+            flex-grow: 1;
+        }
+
+        .features-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .features-list li i {
+            color: var(--accent-gold);
+            margin-right: 10px;
+            width: 20px;
+            text-align: center;
+        }
+
+        /* BEST SELLER BADGE */
+        .badge-best {
+            position: absolute;
+            top: 15px;
+            right: -30px;
+            background: var(--accent-gold);
+            color: black;
+            padding: 5px 30px;
+            transform: rotate(45deg);
+            font-weight: 800;
+            font-size: 0.8rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* CTA SECTION */
+        .cta-section {
+            background: linear-gradient(90deg, #1e40af 0%, #3b82f6 100%);
+            padding: 50px 0;
+            border-radius: 12px;
+            margin-top: 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-bg-icon {
+            position: absolute;
+            right: -50px;
+            bottom: -50px;
+            font-size: 15rem;
+            color: rgba(255, 255, 255, 0.1);
+            transform: rotate(-20deg);
+        }
+
+        /* FOOTER */
+        footer {
+            background: #05080f;
+            padding: 60px 0 30px;
+            border-top: 1px solid var(--border-line);
+        }
+
+        .footer-icon {
+            color: var(--accent-blue);
+            margin-right: 12px;
+            width: 20px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        footer a {
+            color: var(--text-grey);
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: var(--accent-blue);
+        }
+
+        /* --- FLOATING BUTTONS STYLE --- */
+        .floating-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 9990;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        /* Tombol WA */
+        .btn-float-wa {
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .btn-float-wa:hover {
+            background-color: #128c7e;
+            transform: scale(1.1);
+            color: white;
+        }
+
+        /* Pulse Animation WA */
+        .btn-float-wa::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #25d366;
+            opacity: 0.7;
+            z-index: -1;
+            animation: pulse-wa 2s infinite;
+        }
+
+        @keyframes pulse-wa {
+            0% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+
+            100% {
+                transform: scale(1.6);
+                opacity: 0;
+            }
+        }
+
+        /* Tombol Back Top */
+        .btn-back-top {
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-blue);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+        }
+
+        .btn-back-top.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .btn-back-top:hover {
+            background-color: #2563eb;
+            transform: translateY(-5px);
+            color: white;
+        }
+
+        /* --- MOBILE OPTIMIZATION --- */
+        @media (max-width: 991px) {
+            .display-3 {
+                font-size: 2.5rem;
+            }
+
+            .cta-section {
+                padding: 30px 20px;
+            }
+
+            /* Mobile Float */
+            .floating-container {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .btn-float-wa {
+                width: 50px;
+                height: 50px;
+                font-size: 26px;
+            }
+
+            .btn-back-top {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+    </style>
+        <!-- SEO Update -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://sunrisecamp.web.id/paket.html">
+    
+    <!-- OpenGraph Lengkap -->
+    <meta property="og:title" content="Daftar Paket Camping Murah - CAMPING BATU">
+    <meta property="og:description" content="Daftar informasi paket camping Camping Batu. Pilihan paket: Basic Camping (Hemat), Full Camping (Lengkap), dan Corporate Gathering (All-in). Booking sekarang!">
+    <meta property="og:image" content="https://sunrisecamp.web.id/asset/IMG_1531.webp">
+    <meta property="og:url" content="https://sunrisecamp.web.id/paket.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Batu Sunrise Camp">
+    <meta property="og:locale" content="id_ID">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Daftar Paket Camping Murah - CAMPING BATU">
+    <meta name="twitter:description" content="Daftar informasi paket camping Camping Batu. Pilihan paket: Basic Camping (Hemat), Full Camping (Lengkap), dan Corporate Gathering (All-in). Booking sekarang!">
+    <meta name="twitter:image" content="https://sunrisecamp.web.id/asset/IMG_1531.webp">
+
+    <!-- Ai Overview (AEO dan GEO) schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsActivityLocation",
+      "name": "Batu Sunrise Camp",
+      "image": "https://sunrisecamp.web.id/asset/IMG_1531.webp",
+      "@id": "https://sunrisecamp.web.id",
+      "url": "https://sunrisecamp.web.id/paket.html",
+      "telephone": "+6281239225692",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Gn. Banyak, Jurangrejo, Pandesari",
+        "addressLocality": "Bumiaji",
+        "addressRegion": "Kota Batu",
+        "postalCode": "65391",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-7.8481511",
+        "longitude": "112.4913804"
+      },
+      "description": "Daftar informasi paket camping Camping Batu. Pilihan paket: Basic Camping (Hemat), Full Camping (Lengkap), dan Corporate Gathering (All-in). Booking sekarang!"
+    }
+    </script>
+
+    <!-- PageSpeed Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <!-- Favicon -->
+    <link rel="icon" href="asset/favicon/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon/favicon-16x16.png">
+    <link rel="manifest" href="asset/favicon/site.webmanifest">
+</head>
+
+<body>
+
+    <div class="floating-container">
+        <a href="#" class="btn-back-top" id="backToTop" title="Kembali ke Atas">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <a href="https://wa.me/6281239225692" class="btn-float-wa" target="_blank" title="Chat WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html" style="margin-right: 0;"><img
+                    src="asset/Batu_Sunrise_Camp_Logo.png" alt="Batu Sunrise Camp Logo" class="me-2"
+                    style="height: 35px; width: auto; object-fit: contain;" loading="lazy" decoding="async"><span
+                    class="ms-1"
+                    style="color: #fff; font-weight: 800; font-size: 1.1rem; white-space: nowrap; font-style: normal;">BATU
+                    SUNRISE CAMP</span></a>
+            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="fas fa-bars text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="paket.html">Paket</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                    <li class="nav-item ms-lg-4 mt-3 mt-lg-0">
+                        <a href="https://wa.me/6281239225692" class="btn btn-primary-custom" target="_blank">
+                            <i class="fab fa-whatsapp me-2"></i> KONTAK
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Pilihan PAKET</h1>
+            <p class="lead text-light">Pilih paket campingmu. Dari keluarga hingga korporat.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="text-center mb-4">
+                    <span class="sub-heading">DAFTAR PAKET SEWA</span>
+                    <h2>Sunrise 1 Package</h2>
+                    <p class="text-dim">Fasilitas: Camp Ground, Ticket Area,
+                        Listrik, Penerangan</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <img src="asset/IMG20260218122144.webp" class="card-img-top" alt="Paket BASIC" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0">FOUR PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Camp Ground</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 4 Orang</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise1-four.html" class="btn btn-outline-light w-100 mb-2">DETAIL PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%201%20Four%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card"
+                        style="border-color: var(--accent-blue); transform: scale(1.02); z-index: 2;">
+                        <div class="badge-best">POPULER</div>
+                        <img src="asset/IMG_1531.webp" class="card-img-top" alt="Paket THREE" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0 text-blue">THREE PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Camp Ground</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 3 Orang</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise1-three.html" class="btn btn-outline-light w-100 mb-2">DETAIL
+                                PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%201%20Three%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="pricing-card">
+                        <img src="asset/IMG_1540.webp" class="card-img-top" alt="Paket TWO" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0">TWO PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Camp Ground</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2</i>Penerangan</li>
+                            <li><i class=" fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 2 Orang</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise1-two.html" class="btn btn-outline-light w-100 mb-2">DETAIL PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%201%20Two%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="text-center mb-4">
+                    <span class="sub-heading">DAFTAR PAKET SEWA</span>
+                    <h2>Sunrise 2 Package</h2>
+                    <p class="text-dim">Fasilitas: Camp Ground, Ticket Area,
+                        Listrik, Penerangan</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <img src="asset/IMG20260218122144.webp" class="card-img-top" alt="Paket FOUR" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0">FOUR PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Camp Ground</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 4 Orang</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Tenda kapasitas 4 Orang (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Matras (4)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sleeping Bag (4)</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise2-four.html" class="btn btn-outline-light w-100 mb-2">DETAIL PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%202%20Four%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card"
+                        style="border-color: var(--accent-blue); transform: scale(1.02); z-index: 2;">
+                        <div class="badge-best">POPULER</div>
+                        <img src="asset/IMG_1531.webp" class="card-img-top" alt="Paket THREE" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0 text-blue">THREE PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Camp Ground</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 3 Orang</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Tenda kapasitas 3 Orang (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Matras (3)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sleeping Bag (3)</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise2-three.html" class="btn btn-outline-light w-100 mb-2">DETAIL
+                                PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%202%20Three%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="pricing-card">
+                        <img src="asset/IMG_1540.webp" class="card-img-top" alt="Paket TWO" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0">TWO PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Camp Ground</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 2 Orang</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Tenda kapasitas 2 Orang (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Matras (2)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sleeping Bag (2)</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise2-two.html" class="btn btn-outline-light w-100 mb-2">DETAIL PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%202%20Two%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="text-center mb-4">
+                    <span class="sub-heading">DAFTAR PAKET SEWA</span>
+                    <h2>Sunrise 3 Package</h2>
+                    <p class="text-dim">Fasilitas: Camp Ground, Ticket Area,
+                        Listrik, Penerangan</p>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card">
+                        <img src="asset/IMG20260218122144.webp" class="card-img-top" alt="Paket FOUR" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0">FOUR PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 4 Orang</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Tenda kapasitas 4 Orang (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Matras (4)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Nesting Set (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Kompor (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Gas (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Meja (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Kursi (2)</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise3-four.html" class="btn btn-outline-light w-100 mb-2">DETAIL PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%203%20Four%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="pricing-card"
+                        style="border-color: var(--accent-blue); transform: scale(1.02); z-index: 2;">
+                        <div class="badge-best">POPULER</div>
+                        <img src="asset/IMG_1531.webp" class="card-img-top" alt="Paket THREE" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0 text-blue">THREE PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 3 Orang</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Tenda kapasitas 3 Orang (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Matras (3)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Nesting Set (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Kompor (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Gas (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Meja (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Kursi (2)</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise3-three.html" class="btn btn-outline-light w-100 mb-2">DETAIL
+                                PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%203%20Three%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="pricing-card">
+                        <img src="asset/IMG_1540.webp" class="card-img-top" alt="Paket TWO" loading="lazy"
+                            decoding="async">
+                        <h3 class="mb-0">TWO PERSON</h3>
+                        <ul class="features-list">
+                            <li><i class="fas fa-check-circle me-2"></i>Camp Ground</li>
+                            <li><i class="fas fa-check-circle me-2"></i><strong>Ticket Area</strong></li>
+                            <li><i class="fas fa-check-circle me-2"></i>Listrik</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Penerangan</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Sudah Termasuk Tiket 2 Orang</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Tenda kapasitas 2 Orang (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Matras (2)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Nesting Set (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Kompor (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Gas (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Meja (1)</li>
+                            <li><i class="fas fa-check-circle me-2"></i>Kursi (2)</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="paket-sunrise3-two.html" class="btn btn-outline-light w-100 mb-2">DETAIL PAKET</a>
+                            <a href="https://wa.me/6281239225692?text=Halo%20Permisi,%20saya%20mau%20booking%20paket%20Sunrise%203%20Two%20Person"
+                                class="btn btn-primary-custom w-100">BOOKING SEKARANG</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="cta-section">
+                <i class="fas fa-shield-alt cta-bg-icon"></i>
+                <div class="position-relative z-1 text-center">
+                    <h2 class="display-5 text-white fw-bold mb-3">BUTUH PENAWARAN KHUSUS?</h2>
+                    <p class="text-white lead mb-4" style="max-width: 700px; margin: 0 auto;">
+                        Kami menyediakan paket custom untuk sekolah, kampus, atau event organizer dengan penawaran
+                        spesial.
+                    </p>
+                    <a href="https://wa.me/6281239225692" class="btn btn-light btn-lg fw-bold text-primary px-5 py-3">
+                        <i class="fab fa-whatsapp me-2"></i> HUBUNGI KAMI
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="text-white mb-3">BATU SUNRISE<span class="text-blue"> CAMP</span></h3>
+                    <p class="text-dim small">Penyedia jasa camping dan outbound profesional dengan standar keamanan
+                        tinggi.</p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">Navigasi</h5>
+                    <ul class="list-unstyled text-dim small">
+                        <li class="mb-2"><a href="index.html">Beranda</a></li>
+                        <li class="mb-2"><a href="about.html">Tentang Kami</a></li>
+                        <li class="mb-2"><a href="paket.html">Paket</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">NETWORK</h5>
+                    <ul class="list-unstyled text-dim small">
+                        <li class="mb-2"><a href="#">Network 1</a></li>
+                        <li class="mb-2"><a href="#">Network 2</a></li>
+                        <li class="mb-2"><a href="#">Network 3</a></li>
+                        <li class="mb-2"><a href="#">Network 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">KONTAK</h5>
+                    <ul class="list-unstyled text-dim small">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fab fa-whatsapp footer-icon mt-1" aria-hidden="true"></i>
+                            <span><b>WhatsApp:</b><br>0812-3922-5692 (Booking)</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fas fa-map-marker-alt footer-icon mt-1" aria-hidden="true"></i>
+                            <span><b>Alamat:</b><br>Camping Ground Goa Pinus, Jl. Gn. Banyak, Jurangrejo, Pandesari, Kec. Bumiaji, Kota Batu, Jawa Timur 65391</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fas fa-clock footer-icon mt-1" aria-hidden="true"></i>
+                            <span><b>Buka Setiap Hari:</b><br>09:00 - 21:00</span>
+                        </li></ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary pt-4 mt-4 text-center">
+                <small class="text-dim">&copy; 2026 Batu Sunrise Camp. All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <script>
+        // --- Back to Top Logic ---
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>

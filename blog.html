@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog Batu Camping: Berita & Tips Berkemah - CAMPING BATU</title>
+    <meta name="description"
+        content="Baca artikel terbaru seputar dunia camping di Batu! Tips memilih tenda, perlengkapan outdoor, dan informasi gathering perusahaan di Camping Batu.">
+    <meta name="keywords"
+        content="blog camping, tips berkemah, perlengkapan camping batu, review tenda, berita campingbatu, edukasi wisata alam, team building info">
+    <meta name="author" content="CAMPING BATU Team">
+    
+    <link rel="preload" as="image" href="asset/IMG_1540.webp">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </noscript>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Inter:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* --- DESIGN SYSTEM --- */
+        :root {
+            --bg-deep: #0B0F19;
+            --bg-panel: #161F32;
+            --accent-blue: #3B82F6;
+            --accent-gold: #F59E0B;
+            --text-white: #FFFFFF;
+            --text-light: #E2E8F0;
+            --text-grey: #94A3B8;
+            --border-line: rgba(255, 255, 255, 0.15);
+        }
+
+        body {
+            background-color: var(--bg-deep);
+            color: var(--text-light);
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden;
+            padding-top: 70px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        .nav-link,
+        .btn,
+        .widget-title {
+            font-family: 'Barlow Condensed', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-white);
+        }
+
+        /* NAVBAR */
+        .navbar {
+            background-color: rgba(11, 15, 25, 0.95);
+            border-bottom: 1px solid var(--border-line);
+            padding: 0.5rem 0;
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 800;
+            font-style: italic;
+            color: white !important;
+        }
+
+        .navbar-brand span {
+            color: var(--accent-blue);
+        }
+
+        .nav-link {
+            color: var(--text-grey) !important;
+            font-weight: 600;
+            margin: 0 10px;
+            transition: 0.3s;
+            font-size: 0.95rem;
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--accent-blue) !important;
+        }
+
+        .btn-primary-custom {
+            background-color: var(--accent-blue);
+            color: white !important;
+            padding: 8px 20px;
+            border-radius: 6px;
+            font-weight: 700;
+            border: none;
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+
+        .btn-primary-custom:hover {
+            background-color: #2563eb;
+            transform: translateY(-2px);
+        }
+
+        /* HERO SECTION (REVISED PADDING) */
+        .page-header {
+            background: linear-gradient(to bottom, rgba(11, 15, 25, 0.8), var(--bg-deep)), url('asset/IMG_20260218_121212_929.webp');
+            background-size: cover;
+            background-position: center;
+            padding: 40px 0 50px;
+            border-bottom: 1px solid var(--border-line);
+        }
+
+        /* --- BLOG LAYOUT --- */
+        .blog-card {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-line);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            transition: 0.3s;
+            display: none;
+            /* Hidden by Default, JS will show */
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-blue);
+        }
+
+        .blog-thumb {
+            width: 100%;
+            height: 420px;
+            object-fit: cover;
+            border-bottom: 1px solid var(--border-line);
+        }
+
+        .blog-content {
+            padding: 25px;
+        }
+
+        .blog-meta {
+            font-size: 0.9rem;
+            color: var(--text-grey);
+            margin-bottom: 10px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .blog-meta i {
+            color: var(--accent-gold);
+            margin-right: 5px;
+        }
+
+        .blog-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .blog-title a {
+            color: var(--text-white);
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .blog-title a:hover {
+            color: var(--accent-blue);
+        }
+
+        .blog-excerpt {
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn-read-more {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-bottom: 2px solid transparent;
+            transition: 0.3s;
+        }
+
+        .btn-read-more:hover {
+            border-color: var(--accent-blue);
+            color: var(--accent-blue);
+        }
+
+        /* --- SIDEBAR WIDGETS --- */
+        .sidebar-widget {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-line);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+
+        .widget-title {
+            font-size: 1.4rem;
+            border-bottom: 2px solid var(--border-line);
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .widget-title::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background: var(--accent-blue);
+        }
+
+        /* Search Input */
+        .search-form {
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border-line);
+            padding: 12px 15px;
+            padding-right: 45px;
+            border-radius: 6px;
+            color: var(--text-white);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        .search-btn {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-grey);
+            cursor: pointer;
+        }
+
+        .search-btn:hover {
+            color: var(--accent-blue);
+        }
+
+        /* Recent Posts */
+        .recent-post-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .recent-thumb {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-right: 15px;
+        }
+
+        .recent-info h6 {
+            margin: 0 0 5px;
+            line-height: 1.3;
+        }
+
+        .recent-info h6 a {
+            color: var(--text-white);
+            text-decoration: none;
+            font-family: 'Inter';
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .recent-info h6 a:hover {
+            color: var(--accent-blue);
+        }
+
+        .recent-date {
+            font-size: 0.8rem;
+            color: var(--text-grey);
+        }
+
+        /* Sticky Sidebar */
+        @media (min-width: 992px) {
+            .sticky-sidebar {
+                position: sticky;
+                top: 100px;
+            }
+        }
+
+        #noResults {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            background: var(--bg-panel);
+            border-radius: 12px;
+            border: 1px dashed var(--text-grey);
+        }
+
+        /* --- CUSTOM PAGINATION --- */
+        .pagination-container {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        .page-custom {
+            background-color: var(--bg-panel);
+            border: 1px solid var(--border-line);
+            color: var(--text-white);
+            padding: 10px 20px;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 45px;
+            cursor: pointer;
+        }
+
+        .page-custom:hover {
+            background-color: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: white;
+        }
+
+        .page-custom.active {
+            background-color: var(--accent-blue);
+            border-color: var(--accent-blue);
+            color: white;
+        }
+
+        .page-custom.disabled {
+            background-color: transparent;
+            border-color: rgba(255, 255, 255, 0.05);
+            color: rgba(255, 255, 255, 0.2);
+            cursor: Default;
+            pointer-events: none;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #05080f;
+            padding: 60px 0 30px;
+            border-top: 1px solid var(--border-line);
+        }
+
+        .footer-icon {
+            color: var(--accent-blue);
+            margin-right: 12px;
+            width: 20px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        footer a {
+            color: var(--text-grey);
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: var(--accent-blue);
+        }
+
+        /* --- FLOATING BUTTONS STYLE --- */
+        .floating-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 9990;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        /* Tombol WA */
+        .btn-float-wa {
+            width: 60px;
+            height: 60px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .btn-float-wa:hover {
+            background-color: #128c7e;
+            transform: scale(1.1);
+            color: white;
+        }
+
+        /* Pulse Animation WA */
+        .btn-float-wa::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background: #25d366;
+            opacity: 0.7;
+            z-index: -1;
+            animation: pulse-wa 2s infinite;
+        }
+
+        @keyframes pulse-wa {
+            0% {
+                transform: scale(1);
+                opacity: 0.7;
+            }
+
+            100% {
+                transform: scale(1.6);
+                opacity: 0;
+            }
+        }
+
+        /* Tombol Back Top */
+        .btn-back-top {
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent-blue);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+        }
+
+        .btn-back-top.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .btn-back-top:hover {
+            background-color: #2563eb;
+            transform: translateY(-5px);
+            color: white;
+        }
+
+        /* --- MOBILE OPTIMIZATION --- */
+        @media (max-width: 991px) {
+
+            /* Mobile Float */
+            .floating-container {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .btn-float-wa {
+                width: 50px;
+                height: 50px;
+                font-size: 26px;
+            }
+
+            .btn-back-top {
+                width: 40px;
+                height: 40px;
+                font-size: 18px;
+            }
+        }
+
+        /* RESPONSIVE BLOG */
+        @media (max-width: 768px) {
+            .blog-thumb {
+                height: 260px;
+            }
+
+            .blog-title {
+                font-size: 1.5rem;
+            }
+
+            .blog-content {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .blog-thumb {
+                height: 220px;
+            }
+        }
+    </style>
+        <!-- SEO Update -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://sunrisecamp.web.id/blog.html">
+    
+    <!-- OpenGraph Lengkap -->
+    <meta property="og:title" content="Blog Batu Camping: Berita & Tips Berkemah - CAMPING BATU">
+    <meta property="og:description" content="Baca artikel terbaru seputar dunia camping di Batu! Tips memilih tenda, perlengkapan outdoor, dan informasi gathering perusahaan di Camping Batu.">
+    <meta property="og:image" content="https://sunrisecamp.web.id/asset/IMG_20260218_121212_929.webp">
+    <meta property="og:url" content="https://sunrisecamp.web.id/blog.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Batu Sunrise Camp">
+    <meta property="og:locale" content="id_ID">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Blog Batu Camping: Berita & Tips Berkemah - CAMPING BATU">
+    <meta name="twitter:description" content="Baca artikel terbaru seputar dunia camping di Batu! Tips memilih tenda, perlengkapan outdoor, dan informasi gathering perusahaan di Camping Batu.">
+    <meta name="twitter:image" content="https://sunrisecamp.web.id/asset/IMG_20260218_121212_929.webp">
+
+    <!-- Ai Overview (AEO dan GEO) schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsActivityLocation",
+      "name": "Batu Sunrise Camp",
+      "image": "https://sunrisecamp.web.id/asset/IMG_20260218_121212_929.webp",
+      "@id": "https://sunrisecamp.web.id",
+      "url": "https://sunrisecamp.web.id/blog.html",
+      "telephone": "+6281239225692",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Gn. Banyak, Jurangrejo, Pandesari",
+        "addressLocality": "Bumiaji",
+        "addressRegion": "Kota Batu",
+        "postalCode": "65391",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-7.8481511",
+        "longitude": "112.4913804"
+      },
+      "description": "Baca artikel terbaru seputar dunia camping di Batu! Tips memilih tenda, perlengkapan outdoor, dan informasi gathering perusahaan di Camping Batu."
+    }
+    </script>
+
+    <!-- PageSpeed Optimizations -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
+    <!-- Favicon -->
+    <link rel="icon" href="asset/favicon/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon/favicon-16x16.png">
+    <link rel="manifest" href="asset/favicon/site.webmanifest">
+</head>
+
+<body>
+
+    <div class="floating-container">
+        <a href="#" class="btn-back-top" id="backToTop" title="Kembali ke Atas">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+        <a href="https://wa.me/6281239225692" class="btn-float-wa" target="_blank" title="Chat WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html" style="margin-right: 0;"><img
+                    src="asset/Batu_Sunrise_Camp_Logo.png" alt="Batu Sunrise Camp Logo" class="me-2"
+                    style="height: 35px; width: auto; object-fit: contain;" loading="lazy" decoding="async"><span
+                    class="ms-1"
+                    style="color: #fff; font-weight: 800; font-size: 1.1rem; white-space: nowrap; font-style: normal;">BATU
+                    SUNRISE CAMP</span></a>
+            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="fas fa-bars text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="paket.html">Paket</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+                    <li class="nav-item ms-lg-4 mt-3 mt-lg-0">
+                        <a href="https://wa.me/6281239225692" class="btn btn-primary-custom" target="_blank">
+                            <i class="fab fa-whatsapp me-2"></i> KONTAK
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header text-center">
+        <div class="container">
+            <h1 class="display-3 fw-bold">BERITA & TIPS</h1>
+            <p class="text-light lead">Informasi terbaru seputar dunia camping di Batu dan tips berkemah.</p>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8">
+
+                    <div class="sidebar-widget d-lg-none mb-4">
+                        <h4 class="widget-title">CARI ARTIKEL</h4>
+                        <div class="search-form">
+                            <input type="text" class="search-input search-input-field"
+                                placeholder="Ketik kata kunci...">
+                            <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+
+                    <div id="blogContainer">
+
+                        <div class="blog-card" data-title="Tips Nyaman di Batu Camping untuk Pemula">
+                            <img src="asset/IMG_20260218_121212_929.webp" alt="Tips Camping Batu" class="blog-thumb"
+                                loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 14 Januari 2026</span><span><i
+                                            class="fas fa-folder"></i> Tips & Trik</span></div>
+                                <h3 class="blog-title"><a href="panduan-wisata-camping-pemula-keluarga.html">PANDUAN
+                                        LENGKAP MENIKMATI WISATA CAMPING UNTUK PEMULA & KELUARGA</a></h3>
+                                <p class="blog-excerpt">Jangan hanya asal berangkat! Pelajari persiapan dasar dan
+                                    perlengkapan tim yang efektif agar pengalaman berkemah Anda tetap nyaman dan seru.
+                                </p>
+                                <a href="panduan-wisata-camping-pemula-keluarga.html" class="btn-read-more">BACA
+                                    SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card" data-title="Menjelajahi Wisata Camping Batu Malang">
+                            <img src="asset/IMG_20260218_133501_187.webp" alt="Wisata Camping Batu" class="blog-thumb"
+                                loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 26 Februari 2026</span><span><i
+                                            class="fas fa-folder"></i> Edukasi</span></div>
+                                <h3 class="blog-title"><a href="wisata-camping-batu-malang.html">MENJELAJAHI WISATA
+                                        CAMPING BATU MALANG: PANDUAN LENGKAP & SPOT TERBAIK</a></h3>
+                                <p class="blog-excerpt">Temukan rekomendasi spot terbaik, tips persiapan, aktivitas seru
+                                    seperti off-road, hingga itinerary bersama Batu Sunrise Camp.</p>
+                                <a href="wisata-camping-batu-malang.html" class="btn-read-more">BACA
+                                    SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card" data-title="Manfaat Gathering Kantor Corporate Team Building">
+                            <img src="asset/IMG_20260218_133547_611.webp" alt="Team Building Corporate"
+                                class="blog-thumb" loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 27 Februari 2026</span><span><i
+                                            class="fas fa-folder"></i> Corporate</span></div>
+                                <h3 class="blog-title"><a
+                                        href="apakah-efektif-memilih-camping-untuk-team-building-perusahaan.html">APAKAH
+                                        EFEKTIF? PANDUAN & MANFAAT TEAM BUILDING DI ALAM BEBAS</a>
+                                </h3>
+                                <p class="blog-excerpt">Studi menunjukkan kegiatan alam dapat meningkatkan kerjasama
+                                    antar divisi dan melatih leadership dalam kondisi di bawah tekanan.</p>
+                                <a href="apakah-efektif-memilih-camping-untuk-team-building-perusahaan.html"
+                                    class="btn-read-more">BACA
+                                    SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card" data-title="Sejarah Batu Camping">
+                            <img src="asset/IMG20260218122144.webp" alt="Sejarah Camping Batu" class="blog-thumb"
+                                loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 10 Maret 2026</span><span><i
+                                            class="fas fa-folder"></i> Trivia</span>
+                                </div>
+                                <h3 class="blog-title"><a href="asal-usul-wisata-camping-di-batu.html">ASAL USUL WISATA
+                                        CAMPING DI BATU MALANG</a>
+                                </h3>
+                                <p class="blog-excerpt">Tahukah Anda bagaimana tren berkemah mulai populer di kawasan
+                                    Batu? Simak sejarah unik perkembangan wisata alam ini.</p>
+                                <a href="asal-usul-wisata-camping-di-batu.html" class="btn-read-more">BACA SELENGKAPNYA
+                                    <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card" data-title="Memilih Perlengkapan Batu Camping">
+                            <img src="asset/IMG_1531.webp" alt="Review Tenda Camping" class="blog-thumb" loading="lazy"
+                                decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 14 Maret 2026</span><span><i
+                                            class="fas fa-folder"></i> Review Gear</span></div>
+                                <h3 class="blog-title"><a href="memilih-perlengkapan-batu-camping.html">MEMILIH
+                                        PERLENGKAPAN: BATU CAMPING YANG AMAN & NYAMAN</a>
+                                </h3>
+                                <p class="blog-excerpt">Bingung memilih perlengkapan untuk berkemah? Pelajari perbedaan
+                                    mendasar materi tenda dan sistem tidur yang tepat.</p>
+                                <a href="memilih-perlengkapan-batu-camping.html" class="btn-read-more">BACA SELENGKAPNYA
+                                    <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card" data-title="WISATA CAMPING BATU MALANG Panduan Lengkap Keluarga 2026">
+                            <img src="asset/IMG_1540.webp" alt="Psikologi Camping" class="blog-thumb" loading="lazy"
+                                decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 10 Maret 2026</span><span><i
+                                            class="fas fa-folder"></i> Edukasi</span></div>
+                                <h3 class="blog-title"><a
+                                        href="wisata-camping-batu-malang-panduan-keluarga-2026.html">WISATA CAMPING BATU
+                                        MALANG: PANDUAN LENGKAP KELUARGA 2026</a></h3>
+                                <p class="blog-excerpt">Rencanakan liburan alam keluarga Anda di tahun 2026 dengan
+                                    panduan wisata camping Batu Malang yang super komprehensif.</p>
+                                <a href="wisata-camping-batu-malang-panduan-keluarga-2026.html"
+                                    class="btn-read-more">BACA SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card"
+                            data-title="Apakah Efektif Memilih Camping untuk Team Building Perusahaan">
+                            <img src="asset/IMG_20260218_133547_611.webp" alt="Kamus Camping Batu" class="blog-thumb"
+                                loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 27 Februari 2026</span><span><i
+                                            class="fas fa-folder"></i> Tips Pemula</span></div>
+                                <h3 class="blog-title"><a
+                                        href="apakah-efektif-memilih-camping-untuk-team-building-perusahaan.html">APAKAH
+                                        EFEKTIF? MEMILIH CAMPING UNTUK TEAM BUILDING PERUSAHAAN</a></h3>
+                                <p class="blog-excerpt">Studi mendalam mengenai efektivitas kegiatan outdoor dalam
+                                    membangun kerjsama tim dan leadership karyawan perusahaan.</p>
+                                <a href="apakah-efektif-memilih-camping-untuk-team-building-perusahaan.html"
+                                    class="btn-read-more">BACA SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card"
+                            data-title="Paket Camping Murah Batu Malang Liburan Hemat Fasilitas Lengkap">
+                            <img src="asset/IMG20260218153744_11zon.webp" alt="Tips Merawat Lampu" class="blog-thumb"
+                                loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 18 Maret 2026</span><span><i
+                                            class="fas fa-folder"></i> Bisnis</span></div>
+                                <h3 class="blog-title"><a href="paket-camping-murah-batu-malang.html">PAKET CAMPING
+                                        MURAH BATU MALANG: LIBURAN HEMAT & FASILITAS LENGKAP</a></h3>
+                                <p class="blog-excerpt">Cari paket camping murah Batu Malang? Temukan rincian harga sewa
+                                    tenda, fasilitas, hingga rekomendasi spot terbaik.</p>
+                                <a href="paket-camping-murah-batu-malang.html" class="btn-read-more">BACA SELENGKAPNYA
+                                    <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="noResults">
+                        <i class="fas fa-search fa-3x text-grey mb-3"></i>
+                        <h4 class="text-white">Artikel Tidak Ditemukan</h4>
+                        <p class="text-grey">Coba gunakan kata kunci lain.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="sticky-sidebar">
+
+                        <div class="sidebar-widget d-none d-lg-block">
+                            <h4 class="widget-title">CARI ARTIKEL</h4>
+                            <div class="search-form">
+                                <input type="text" class="search-input search-input-field"
+                                    placeholder="Ketik kata kunci...">
+                                <button type="button" class="search-btn"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h4 class="widget-title">TERPOPULER</h4>
+
+                            <div class="recent-post-item">
+                                <img src="asset/IMG_20260218_133501_187.webp" class="recent-thumb" alt="Tips Nyaman"
+                                    loading="lazy" decoding="async">
+                                <div class="recent-info">
+                                    <h6><a href="wisata-camping-batu-malang.html">Panduan Destinasi & Spot Terbaik</a>
+                                    </h6>
+                                    <span class="recent-date">26 Februari 2026</span>
+                                </div>
+                            </div>
+
+                            <div class="recent-post-item">
+                                <img src="asset/IMG_20260218_133547_611.webp" class="recent-thumb"
+                                    alt="Manfaat Corporate" loading="lazy" decoding="async">
+                                <div class="recent-info">
+                                    <h6><a href="apakah-efektif-memilih-camping-untuk-team-building-perusahaan.html">Manfaat
+                                            Team Building di
+                                            Alam</a></h6>
+                                    <span class="recent-date">27 Februari 2026</span>
+                                </div>
+                            </div>
+
+                            <div class="recent-post-item">
+                                <img src="asset/IMG_1531.webp" class="recent-thumb" alt="Review Gear" loading="lazy"
+                                    decoding="async">
+                                <div class="recent-info">
+                                    <h6><a href="memilih-perlengkapan-batu-camping.html">Review Gear Camping Safety</a>
+                                    </h6>
+                                    <span class="recent-date">14 Maret 2026</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h3 class="text-white mb-3">BATU SUNRISE<span class="text-blue"> CAMP</span></h3>
+                    <p class="text-dim small">Penyedia jasa camping dan outbound profesional dengan standar keamanan
+                        tinggi.</p>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">Navigasi</h5>
+                    <ul class="list-unstyled text-dim small">
+                        <li class="mb-2"><a href="index.html">Beranda</a></li>
+                        <li class="mb-2"><a href="about.html">Tentang Kami</a></li>
+                        <li class="mb-2"><a href="paket.html">Paket</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">NETWORK</h5>
+                    <ul class="list-unstyled text-dim small">
+                        <li class="mb-2"><a href="#">Network 1</a></li>
+                        <li class="mb-2"><a href="#">Network 2</a></li>
+                        <li class="mb-2"><a href="#">Network 3</a></li>
+                        <li class="mb-2"><a href="#">Network 4</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">KONTAK</h5>
+                    <ul class="list-unstyled text-dim small">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fab fa-whatsapp footer-icon mt-1" aria-hidden="true"></i>
+                            <span><b>WhatsApp:</b><br>0812-3922-5692 (Booking)</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fas fa-map-marker-alt footer-icon mt-1" aria-hidden="true"></i>
+                            <span><b>Alamat:</b><br>Camping Ground Goa Pinus, Jl. Gn. Banyak, Jurangrejo, Pandesari, Kec. Bumiaji, Kota Batu, Jawa Timur 65391</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="fas fa-clock footer-icon mt-1" aria-hidden="true"></i>
+                            <span><b>Buka Setiap Hari:</b><br>09:00 - 21:00</span>
+                        </li></ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary pt-4 mt-4 text-center">
+                <small class="text-dim">&copy; 2026 Batu Sunrise Camp. All Rights Reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <script>
+        // CONFIG
+        const itemsPerPage = 4;
+        let currentPage = 1;
+        const totalitems = 8; // Total artikel di HTML
+        const totalPages = Math.ceil(totalitems / itemsPerPage);
+
+        // DOM Elements
+        const blogCards = document.querySelectorAll('.blog-card');
+        const btnPrev = document.getElementById('btnPrev');
+        const btnNext = document.getElementById('btnNext');
+        const btnPage1 = document.getElementById('btnPage1');
+        const btnPage2 = document.getElementById('btnPage2');
+
+        // REVISI: Mengambil semua input search (Mobile & Desktop)
+        const searchInputs = document.querySelectorAll('.search-input-field');
+        const noResults = document.getElementById('noResults');
+
+        // Initial Load: Show All Articles
+        blogCards.forEach(card => {
+            card.style.display = 'block';
+            card.style.animation = 'fadeIn 0.5s';
+        });
+
+        // SEARCH FUNCTION (Simplified for Single Page)
+        searchInputs.forEach(input => {
+            input.addEventListener('keyup', function (e) {
+                const term = e.target.value.toLowerCase();
+
+                // Sync value ke input satunya agar konsisten
+                searchInputs.forEach(otherInput => {
+                    if (otherInput !== input) otherInput.value = term;
+                });
+
+                let visibleCount = 0;
+
+                blogCards.forEach(card => {
+                    const dataTitle = card.getAttribute('data-title').toLowerCase();
+                    const visibleTitle = card.querySelector('.blog-title').innerText.toLowerCase();
+
+                    if (term === '' || dataTitle.includes(term) || visibleTitle.includes(term)) {
+                        card.style.display = 'block';
+                        visibleCount++;
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+
+                if (visibleCount === 0 && term !== '') noResults.style.display = 'block';
+                else noResults.style.display = 'none';
+            });
+        });
+
+        // --- Back to Top Logic ---
+        const backToTopBtn = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopBtn.classList.add('show');
+            } else {
+                backToTopBtn.classList.remove('show');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
