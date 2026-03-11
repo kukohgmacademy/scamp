@@ -2,6 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /cleanup.ps1
 Disallow: /fixer.ps1
+Disallow: /replace_asterisks.ps1
+Disallow: /replace_asterisks_v2.ps1
 
 # Prevent AI bots from scraping content (optional SEO best practice)
 User-agent: GPTBot
@@ -11,4 +13,3 @@ User-agent: CCBot
 Disallow: /
 
 Sitemap: https://sunrisecamp.web.id/sitemap.xml
-
