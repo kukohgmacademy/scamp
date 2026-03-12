@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/blog.html</loc>
-    <lastmod>2026-03-11</lastmod>
+    <lastmod>2026-03-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -129,6 +129,28 @@
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/IMG_1484_11zon.webp</image:loc>
       <image:title>Tempat Camping di Batu Fasilitas Lengkap</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/review-camping-ground-batu-terbaru.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/camping%20di%20bukit.webp</image:loc>
+      <image:title>Review Camping Ground Batu Terbaru</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/paket-camping-batu-malang-view-city-light-sunrise.html</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/gambar%20light%20night.webp</image:loc>
+      <image:title>Paket Camping Batu Malang View City Light Sunrise</image:title>
     </image:image>
   </url>
 
