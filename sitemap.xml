@@ -7,7 +7,7 @@
   <!-- Home Page -->
   <url>
     <loc>https://sunrisecamp.web.id/</loc>
-    <lastmod>2026-03-11</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -18,7 +18,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/index.html</loc>
-    <lastmod>2026-03-11</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/blog.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -134,7 +134,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/review-camping-ground-batu-terbaru.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
@@ -145,12 +145,34 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/paket-camping-batu-malang-view-city-light-sunrise.html</loc>
-    <lastmod>2026-03-12</lastmod>
+    <lastmod>2026-03-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/gambar%20light%20night.webp</image:loc>
       <image:title>Paket Camping Batu Malang View City Light Sunrise</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/tempat-camping-batu-terpopuler.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Person_drinking_coffee_sunrise.webp</image:loc>
+      <image:title>Tempat Camping di Batu Terpopuler dengan Spot Sunrise</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/sewa-ground-camping-toilet-bersih-colokan-listrik-batu.html</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/orang%20relex%20di%20camping.webp</image:loc>
+      <image:title>Sewa Ground Camping Toilet Bersih &amp; Colokan Listrik di Batu</image:title>
     </image:image>
   </url>
 
