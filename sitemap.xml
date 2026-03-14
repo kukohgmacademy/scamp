@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/blog.html</loc>
-    <lastmod>2026-03-13</lastmod>
+    <lastmod>2026-03-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -173,6 +173,28 @@
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/orang%20relex%20di%20camping.webp</image:loc>
       <image:title>Sewa Ground Camping Toilet Bersih &amp; Colokan Listrik di Batu</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/spot-sunrise-terbaik-camping-batu-malang.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Camping_ground_on_tropical_hill_.webp</image:loc>
+      <image:title>Spot Sunrise Terbaik untuk Camping di Batu Malang</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/sewa-ground-camping-toilet-bersih-batu-malang.html</loc>
+    <lastmod>2026-03-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/People_relaxing_at_camping.webp</image:loc>
+      <image:title>Sewa Ground Camping dengan Toilet Bersih dan Area Kemah Batu dengan Colokan Listrik Terlengkap</image:title>
     </image:image>
   </url>
 
