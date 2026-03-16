@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/blog.html</loc>
-    <lastmod>2026-03-14</lastmod>
+    <lastmod>2026-03-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -195,6 +195,28 @@
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/People_relaxing_at_camping.webp</image:loc>
       <image:title>Sewa Ground Camping dengan Toilet Bersih dan Area Kemah Batu dengan Colokan Listrik Terlengkap</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/paket-camping-murah-batu-malang-hutan-pinus.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/A_beautiful_and_aesthetic_pine_forest_camping.webp</image:loc>
+      <image:title>Paket Camping Murah Batu Malang di Hutan Pinus</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/camping-ground-batu-fasilitas-lengkap-aman-keluarga.html</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Happy_family_camping_in_indonesia.webp</image:loc>
+      <image:title>Camping Ground Batu Fasilitas Lengkap untuk Keluarga</image:title>
     </image:image>
   </url>
 
