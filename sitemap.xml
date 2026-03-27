@@ -7,7 +7,7 @@
   <!-- Home Page -->
   <url>
     <loc>https://sunrisecamp.web.id/</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -18,7 +18,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/index.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/blog.html</loc>
-    <lastmod>2026-03-18</lastmod>
+    <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -261,6 +261,50 @@
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/A_cozy_night_.webp</image:loc>
       <image:title>Menikmati Sejuknya Kota Apel: Rekomendasi Spot Camping Terbaik di Batu untuk Healing Akhir Pekan</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/wisata-ground-camping-batu-hutan-pinus-asri.html</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/pemandang%20camping%20di%20hutan%20pinus.webp</image:loc>
+      <image:title>Wisata Ground Camping Batu: Eksplorasi Area Kemah Hutan Pinus Batu yang Asri</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/persiapan-berkemah-batu-colokan-listrik-barang-wajib-bawa.html</loc>
+    <lastmod>2026-03-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/relaxing%20bersama%20keluarga.webp</image:loc>
+      <image:title>Persiapan Berkemah di Area Kemah Batu dengan Colokan Listrik: Daftar Barang Wajib Bawa</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/tempat-camping-terbaik-batu-spot-sunrise.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Sunrise_over_mountains_1.webp</image:loc>
+      <image:title>Tempat Camping Terbaik di Batu: Rekomendasi Spot Sunrise Terbaik Camping Batu yang Menawan</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/daftar-barang-bawaan-kemah-batu-listrik-toilet-bersih.html</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Camper_organizing_gear_1.webp</image:loc>
+      <image:title>Daftar Barang yang Perlu Dibawa ke Area Kemah Batu dengan Colokan Listrik dan Toilet Bersih</image:title>
     </image:image>
   </url>
 
