@@ -7,7 +7,7 @@
   <!-- Home Page -->
   <url>
     <loc>https://sunrisecamp.web.id/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -18,7 +18,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/index.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/blog.html</loc>
-    <lastmod>2026-03-27</lastmod>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -305,6 +305,28 @@
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/Camper_organizing_gear_1.webp</image:loc>
       <image:title>Daftar Barang yang Perlu Dibawa ke Area Kemah Batu dengan Colokan Listrik dan Toilet Bersih</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/eksplorasi-area-kemah-hutan-pinus-batu-spot-foto.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Pine_forest_camping_1.webp</image:loc>
+      <image:title>Eksplorasi Area Kemah Hutan Pinus Batu: Spot Foto Alam Tersembunyi di Malang</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/perlengkapan-wajib-camping-batu-malang.html</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Camper_organizing_gearr_1.webp</image:loc>
+      <image:title>Perlengkapan Wajib untuk Menembus Dinginnya Wisata Ground Camping Batu Malang</image:title>
     </image:image>
   </url>
 
