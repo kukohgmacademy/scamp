@@ -383,6 +383,23 @@
             color: var(--accent-blue);
         }
 
+        .footer-link-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-link-item i {
+            font-size: 0.65rem;
+            color: var(--accent-blue);
+            width: 18px;
+            transition: 0.3s;
+        }
+
+        .footer-link-item:hover i {
+            transform: translateX(3px);
+            color: var(--accent-gold);
+        }
+
         /* --- FLOATING BUTTONS STYLE --- */
         .floating-container {
             position: fixed;
@@ -516,6 +533,49 @@
                 height: 220px;
             }
         }
+
+        /* FOOTER PREMIUM */
+        footer {
+            background: #05080f !important;
+            padding: 60px 0 30px !important;
+            border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+        }
+
+        .footer-icon {
+            color: var(--accent-blue) !important;
+            margin-right: 12px !important;
+            width: 20px !important;
+            text-align: center !important;
+            flex-shrink: 0 !important;
+        }
+
+        footer a {
+            color: #94A3B8 !important;
+            text-decoration: none !important;
+            transition: 0.3s !important;
+        }
+
+        footer a:hover {
+            color: var(--accent-blue) !important;
+        }
+
+        .footer-link-item {
+            display: flex !important;
+            align-items: center !important;
+        }
+
+        .footer-link-item i {
+            font-size: 0.65rem !important;
+            color: var(--accent-blue) !important;
+            width: 18px !important;
+            transition: 0.3s !important;
+            margin-right: 0.5rem !important;
+        }
+
+        .footer-link-item:hover i {
+            transform: translateX(3px) !important;
+            color: var(--accent-gold, #F59E0B) !important;
+        }
     </style>
     <!-- SEO Update -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -640,8 +700,46 @@
                     <div id="blogContainer">
 
                         <div class="blog-card" data-title="Tips Nyaman di Batu Camping untuk Pemula">
-                            <img src="asset/Camper_organizing_gearr_1.webp" alt="Tips Camping Batu"
-                                class="blog-thumb" loading="lazy" decoding="async">
+                            <img src="asset/Camper_relaxing_on_1.webp" alt="Tips Camping Batu" class="blog-thumb"
+                                loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 30 Maret
+                                        2026</span><span><i class="fas fa-folder"></i> Spot</span></div>
+                                <h3 class="blog-title"><a
+                                        href="menepi-sejenak-area-kemah-hutan-pinus-batu-healing.html">Mau Camping Tanpa
+                                        Ribet? Coba Serunya Menginap di Area Kemah Hutan Pinus Batu</a>
+                                </h3>
+                                <p class="blog-excerpt">Nikmati pelarian singkat ke alam tanpa perlu pusing; temukan
+                                    area camping di Batu yang menawarkan suasana tenang dan akses mudah untuk liburan
+                                    akhir pekan Anda.</p>
+                                <a href="menepi-sejenak-area-kemah-hutan-pinus-batu-healing.html"
+                                    class="btn-read-more">BACA
+                                    SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card" data-title="Tips Nyaman di Batu Camping untuk Pemula">
+                            <img src="asset/Pine_forest_campingg_1.webp" alt="Tips Camping Batu" class="blog-thumb"
+                                loading="lazy" decoding="async">
+                            <div class="blog-content">
+                                <div class="blog-meta"><span><i class="fas fa-calendar"></i> 30 Maret
+                                        2026</span><span><i class="fas fa-folder"></i> Spot</span></div>
+                                <h3 class="blog-title"><a
+                                        href="menepi-sejenak-area-kemah-hutan-pinus-batu-healing.html">Menepi Sejenak di
+                                        Area Kemah Hutan Pinus Batu: Healing Terbaik di Tengah Rimbunnya Alam Malang</a>
+                                </h3>
+                                <p class="blog-excerpt">Rasakan sensasi bangun pagi menghirup aroma pinus yang segar dan
+                                    embun pegunungan, sebuah pelarian sempurna untuk mengisi kembali energi dari
+                                    rutinitas harian yang padat.</p>
+                                <a href="menepi-sejenak-area-kemah-hutan-pinus-batu-healing.html"
+                                    class="btn-read-more">BACA
+                                    SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="blog-card" data-title="Tips Nyaman di Batu Camping untuk Pemula">
+                            <img src="asset/Camper_organizing_gearr_1.webp" alt="Tips Camping Batu" class="blog-thumb"
+                                loading="lazy" decoding="async">
                             <div class="blog-content">
                                 <div class="blog-meta"><span><i class="fas fa-calendar"></i> 28 Maret
                                         2026</span><span><i class="fas fa-folder"></i> Tips & Trik</span></div>
@@ -652,8 +750,7 @@
                                 <p class="blog-excerpt">Jangan sampai salah kostum! Inilah daftar barang esensial mulai
                                     dari sleeping bag hingga jaket polar agar agenda berkemah Anda di pegunungan Batu
                                     tetap hangat dan seru.</p>
-                                <a href="perlengkapan-wajib-camping-batu-malang.html"
-                                    class="btn-read-more">BACA
+                                <a href="perlengkapan-wajib-camping-batu-malang.html" class="btn-read-more">BACA
                                     SELENGKAPNYA <i class="fas fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
@@ -1222,35 +1319,80 @@
                 </div>
                 <div class="col-lg-2 mb-4">
                     <h5 class="text-white mb-3 text-uppercase">Navigasi</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-2"><a href="index.html">Beranda</a></li>
-                        <li class="mb-2"><a href="about.html">Tentang Kami</a></li>
-                        <li class="mb-2"><a href="paket.html">Paket</a></li>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Beranda
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="about.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Tentang Kami
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="paket.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Paket
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="gallery.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Gallery
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="blog.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Blog
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-2 mb-4">
                     <h5 class="text-white mb-3 text-uppercase">NETWORK</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-2"><a href="https://citylightscamp.web.id/">Citylightscamp Web ID</a></li>
-                        <li class="mb-2"><a href="https://paketcampingbatu.web.id/">Paket Camping Batu Web ID</a></li>
-                        <li class="mb-2"><a href="https://batucamping.web.id/">Batu Camping Web ID</a></li>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            <a href="https://citylightscamp.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Citylightscamp Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://paketcampingbatu.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Paket Camping Batu Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://batucamping.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Batu Camping Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://batugroundcamping.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Batu Ground Camping Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://wisatacampingbatu.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Wisata Camping Batu Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://campingbatumalang.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Camping Batu Malang Web ID
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <h5 class="text-white mb-3 text-uppercase">KONTAK</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-3 d-flex align-items-start">
+                    <ul class="list-unstyled small">
+                        <li class="mb-3 d-flex align-items-start text-dim">
                             <i class="fab fa-whatsapp footer-icon mt-1" aria-hidden="true"></i>
                             <span><b>WhatsApp:</b><br>0812-3922-5692 (Booking)</span>
                         </li>
-                        <li class="mb-3 d-flex align-items-start">
+                        <li class="mb-3 d-flex align-items-start text-dim">
                             <i class="fas fa-map-marker-alt footer-icon mt-1" aria-hidden="true"></i>
                             <span><b>Alamat:</b><br>Camping Ground Goa Pinus, Jl. Gn. Banyak, Jurangrejo, Pandesari,
                                 Kec. Bumiaji, Kota Batu, Jawa Timur 65391</span>
-                        </li>
-                        <li class="mb-3 d-flex align-items-start">
-                            <i class="fas fa-clock footer-icon mt-1" aria-hidden="true"></i>
-                            <span><b>Buka Setiap Hari:</b><br>09:00 - 21:00</span>
                         </li>
                     </ul>
                 </div>

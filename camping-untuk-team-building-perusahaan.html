@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -631,6 +631,49 @@
                 margin-bottom: 15px;
             }
         }
+    
+        /* FOOTER PREMIUM */
+        footer {
+            background: #05080f !important;
+            padding: 60px 0 30px !important;
+            border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+        }
+
+        .footer-icon {
+            color: var(--accent-blue) !important;
+            margin-right: 12px !important;
+            width: 20px !important;
+            text-align: center !important;
+            flex-shrink: 0 !important;
+        }
+
+        footer a {
+            color: #94A3B8 !important;
+            text-decoration: none !important;
+            transition: 0.3s !important;
+        }
+
+        footer a:hover {
+            color: var(--accent-blue) !important;
+        }
+
+        .footer-link-item {
+            display: flex !important;
+            align-items: center !important;
+        }
+
+        .footer-link-item i {
+            font-size: 0.65rem !important;
+            color: var(--accent-blue) !important;
+            width: 18px !important;
+            transition: 0.3s !important;
+            margin-right: 0.5rem !important;
+        }
+
+        .footer-link-item:hover i {
+            transform: translateX(3px) !important;
+            color: var(--accent-gold, #F59E0B) !important;
+        }
     </style>
     <!-- SEO Update -->
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -771,7 +814,7 @@
         </div>
     </section>
 
-    <footer>
+        <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
@@ -781,35 +824,80 @@
                 </div>
                 <div class="col-lg-2 mb-4">
                     <h5 class="text-white mb-3 text-uppercase">Navigasi</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-2"><a href="index.html">Beranda</a></li>
-                        <li class="mb-2"><a href="about.html">Tentang Kami</a></li>
-                        <li class="mb-2"><a href="paket.html">Paket</a></li>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Beranda
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="about.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Tentang Kami
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="paket.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Paket
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="gallery.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Gallery
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="blog.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Blog
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-2 mb-4">
                     <h5 class="text-white mb-3 text-uppercase">NETWORK</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-2"><a href="https://citylightscamp.web.id/">Citylightscamp Web ID</a></li>
-                        <li class="mb-2"><a href="https://paketcampingbatu.web.id/">Paket Camping Batu Web ID</a></li>
-                        <li class="mb-2"><a href="https://batucamping.web.id/">Batu Camping Web ID</a></li>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            <a href="https://citylightscamp.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Citylightscamp Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://paketcampingbatu.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Paket Camping Batu Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://batucamping.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Batu Camping Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://batugroundcamping.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Batu Ground Camping Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://wisatacampingbatu.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Wisata Camping Batu Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://campingbatumalang.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Camping Batu Malang Web ID
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-lg-4 mb-4">
                     <h5 class="text-white mb-3 text-uppercase">KONTAK</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-3 d-flex align-items-start">
+                    <ul class="list-unstyled small">
+                        <li class="mb-3 d-flex align-items-start text-dim">
                             <i class="fab fa-whatsapp footer-icon mt-1" aria-hidden="true"></i>
                             <span><b>WhatsApp:</b><br>0812-3922-5692 (Booking)</span>
                         </li>
-                        <li class="mb-3 d-flex align-items-start">
+                        <li class="mb-3 d-flex align-items-start text-dim">
                             <i class="fas fa-map-marker-alt footer-icon mt-1" aria-hidden="true"></i>
                             <span><b>Alamat:</b><br>Camping Ground Goa Pinus, Jl. Gn. Banyak, Jurangrejo, Pandesari,
                                 Kec. Bumiaji, Kota Batu, Jawa Timur 65391</span>
-                        </li>
-                        <li class="mb-3 d-flex align-items-start">
-                            <i class="fas fa-clock footer-icon mt-1" aria-hidden="true"></i>
-                            <span><b>Buka Setiap Hari:</b><br>09:00 - 21:00</span>
                         </li>
                     </ul>
                 </div>

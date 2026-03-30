@@ -167,14 +167,63 @@
         .baca-juga-box a:hover { color: var(--accent-blue); text-decoration: underline; }
 
         /* TABLE OF CONTENTS */
-        .toc-box { background: rgba(0, 0, 0, 0.2); border: 1px solid var(--border-line); padding: 20px; border-radius: 8px; margin-bottom: 30px; }
-        .toc-title { font-size: 1.2rem; margin-bottom: 15px; color: var(--accent-gold); }
-        .toc-list { list-style: none; padding: 0; margin: 0; }
-        .toc-list li { margin-bottom: 8px; }
-        .toc-list .toc-sub { padding-left: 20px; font-size: 0.95rem; position: relative; }
-        .toc-list .toc-sub::before { content: '-'; position: absolute; left: 5px; color: var(--text-grey); }
-        .toc-list a { color: var(--text-light); text-decoration: none; transition: 0.3s; }
-        .toc-list a:hover { color: var(--accent-blue); padding-left: 5px; }
+        .toc-box {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-line);
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+
+        .toc-title {
+            font-size: 1.3rem;
+            margin-bottom: 0px;
+            color: var(--accent-gold);
+            font-weight: 800;
+        }
+
+        .toc-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .toc-list li {
+            margin-bottom: 10px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 8px;
+        }
+
+        .toc-list li:last-child {
+            border-bottom: none;
+        }
+
+        .toc-list .toc-sub {
+            padding-left: 25px;
+            font-size: 0.95rem;
+            position: relative;
+            border-bottom: none;
+            padding-bottom: 5px;
+        }
+
+        .toc-list .toc-sub::before {
+            content: '→';
+            position: absolute;
+            left: 5px;
+            color: var(--accent-blue);
+        }
+
+        .toc-list a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: 0.3s;
+            display: block;
+        }
+
+        .toc-list a:hover {
+            color: var(--accent-blue);
+            transform: translateX(5px);
+        }
 
         /* QUOTE */
         .highlight-box { background: rgba(59, 130, 246, 0.1); border-left: 4px solid var(--accent-blue); padding: 20px; margin: 30px 0; font-style: italic; color: var(--text-white); font-size: 1.2rem; }
@@ -204,10 +253,46 @@
         .related-title a { color: white; text-decoration: none; font-weight: 700; font-family: 'Barlow Condensed'; font-size: 1.2rem; }
 
         /* FOOTER */
-        footer { background: #0b1120; padding: 60px 0 30px; border-top: 1px solid var(--border-line); }
-        .footer-icon { color: var(--accent-blue); margin-right: 12px; width: 20px; text-align: center; flex-shrink: 0; }
-        footer a { color: var(--text-grey); text-decoration: none; transition: 0.3s; }
-        footer a:hover { color: var(--accent-blue); }
+        footer {
+            background: #05080f;
+            padding: 60px 0 30px;
+            border-top: 1px solid var(--border-line);
+        }
+
+        .footer-icon {
+            color: var(--accent-blue);
+            margin-right: 12px;
+            width: 20px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        footer a {
+            color: var(--text-grey);
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        footer a:hover {
+            color: var(--accent-blue);
+        }
+
+        .footer-link-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-link-item i {
+            font-size: 0.65rem;
+            color: var(--accent-blue);
+            width: 18px;
+            transition: 0.3s;
+        }
+
+        .footer-link-item:hover i {
+            transform: translateX(3px);
+            color: var(--accent-gold);
+        }
 
         /* FLOATING BUTTONS */
         .floating-container { position: fixed; bottom: 30px; right: 30px; z-index: 9990; display: flex; flex-direction: column; gap: 15px; align-items: center; }
@@ -237,6 +322,49 @@
             .highlight-box { font-size: 1.05rem; padding: 15px; }
             .author-box { flex-direction: column; text-align: center; }
             .author-img { margin-right: 0; margin-bottom: 15px; }
+        }
+    
+        /* FOOTER PREMIUM */
+        footer {
+            background: #05080f !important;
+            padding: 60px 0 30px !important;
+            border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+        }
+
+        .footer-icon {
+            color: var(--accent-blue) !important;
+            margin-right: 12px !important;
+            width: 20px !important;
+            text-align: center !important;
+            flex-shrink: 0 !important;
+        }
+
+        footer a {
+            color: #94A3B8 !important;
+            text-decoration: none !important;
+            transition: 0.3s !important;
+        }
+
+        footer a:hover {
+            color: var(--accent-blue) !important;
+        }
+
+        .footer-link-item {
+            display: flex !important;
+            align-items: center !important;
+        }
+
+        .footer-link-item i {
+            font-size: 0.65rem !important;
+            color: var(--accent-blue) !important;
+            width: 18px !important;
+            transition: 0.3s !important;
+            margin-right: 0.5rem !important;
+        }
+
+        .footer-link-item:hover i {
+            transform: translateX(3px) !important;
+            color: var(--accent-gold, #F59E0B) !important;
         }
     </style>
 </head>
@@ -538,45 +666,96 @@
         </div>
     </section>
 
-    <footer>
+        <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 mb-4">
-                    <h3 class="text-white mb-3">BATU SUNRISE<span class="text-blue" style="color:var(--accent-blue);"> CAMP</span></h3>
-                    <p class="text-dim small" style="color: var(--text-grey);">Pusat solusi liburan alam yang mengedepankan keamanan fasilitas anti-repot. Kami bangga memadukan pesona estetik perbukitan dengan jaminan standar pelayanan VIP.</p>
+                <div class="col-lg-4 mb-4">
+                    <h3 class="text-white mb-3">BATU SUNRISE<span class="text-blue"> CAMP</span></h3>
+                    <p class="text-dim small">Penyedia jasa camping dan outbound profesional dengan standar keamanan
+                        tinggi.</p>
                 </div>
-                <div class="col-lg-3 mb-4">
-                    <h5 class="text-white mb-3 text-uppercase">Peta Situs Navigasi</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-2"><a href="index.html">Beranda Portal Web Utama</a></li>
-                        <li class="mb-2"><a href="about.html">Profil Keamanan Pengelola</a></li>
-                        <li class="mb-2"><a href="paket.html">Daftar Harga Fasilitas Sewa All-In</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <h5 class="text-white mb-3 text-uppercase">Jejaring Ekosistem</h5>
-                    <ul class="list-unstyled text-dim small">
-                        <li class="mb-2"><a href="https://citylightscamp.web.id/">Citylightscamp.web.id</a></li>
-                        <li class="mb-2"><a href="https://paketcampingbatu.web.id/">Paketcampingbatu.web.id</a></li>
-                        <li class="mb-2"><a href="https://batucamping.web.id/">Batucamping.web.id</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 mb-4">
-                    <h5 class="text-white mb-3 text-uppercase">KONTAK RESERVASI (24 JAM)</h5>
-                    <ul class="list-unstyled text-dim small" style="color: var(--text-grey);">
-                        <li class="mb-3 d-flex align-items-start">
-                            <i class="fab fa-whatsapp footer-icon mt-1" aria-hidden="true"></i>
-                            <span><b>WhatsApp Hotline Admin:</b><br>0812-3922-5692</span>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">Navigasi</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            <a href="index.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Beranda
+                            </a>
                         </li>
-                        <li class="mb-3 d-flex align-items-start">
+                        <li class="mb-2">
+                            <a href="about.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Tentang Kami
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="paket.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Paket
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="gallery.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Gallery
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="blog.html" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">NETWORK</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2">
+                            <a href="https://citylightscamp.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Citylightscamp Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://paketcampingbatu.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Paket Camping Batu Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://batucamping.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Batu Camping Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://batugroundcamping.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Batu Ground Camping Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://wisatacampingbatu.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Wisata Camping Batu Web ID
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://campingbatumalang.web.id/" class="text-dim footer-link-item">
+                                <i class="fas fa-chevron-right me-2"></i>Camping Batu Malang Web ID
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="text-white mb-3 text-uppercase">KONTAK</h5>
+                    <ul class="list-unstyled small">
+                        <li class="mb-3 d-flex align-items-start text-dim">
+                            <i class="fab fa-whatsapp footer-icon mt-1" aria-hidden="true"></i>
+                            <span><b>WhatsApp:</b><br>0812-3922-5692 (Booking)</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start text-dim">
                             <i class="fas fa-map-marker-alt footer-icon mt-1" aria-hidden="true"></i>
-                            <span><b>Alamat Lokasi Perkemahan:</b><br>Jl. Gn. Banyak, Jurangrejo, Kec. Bumiaji, Kota Batu, Jawa Timur 65391</span>
+                            <span><b>Alamat:</b><br>Camping Ground Goa Pinus, Jl. Gn. Banyak, Jurangrejo, Pandesari,
+                                Kec. Bumiaji, Kota Batu, Jawa Timur 65391</span>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="border-top border-secondary pt-4 mt-4 text-center">
-                <small class="text-dim" style="color: var(--text-grey);">© 2024-2026 Pengelola Batu Sunrise Camp. Seluruh Hak Cipta Artikel dan Visual Dilindungi Secara Hukum Kekayaan Intelektual.</small>
+                <small class="text-dim">&copy; 2026 Batu Sunrise Camp. All Rights Reserved.</small>
             </div>
         </div>
     </footer>
