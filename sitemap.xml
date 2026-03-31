@@ -7,7 +7,7 @@
   <!-- Home Page -->
   <url>
     <loc>https://sunrisecamp.web.id/</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -18,7 +18,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/index.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -47,7 +47,7 @@
 
   <url>
     <loc>https://sunrisecamp.web.id/blog.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -349,6 +349,50 @@
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/Camper_relaxing_on_1.webp</image:loc>
       <image:title>Mau Camping Tanpa Ribet? Coba Serunya Menginap di Area Kemah Hutan Pinus Batu</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/estimasi-harga-glamping-terbaru-liburan-alam.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Family_enjoying_tea_1.webp</image:loc>
+      <image:title>Estimasi Harga Glamping Terbaru: Panduan Menyiapkan Budget untuk Liburan Alam yang Nyaman</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/glamping-camping-menikmati-alam-tanpa-ribet.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Glamping_setup_on_1.webp</image:loc>
+      <image:title>Glamping Camping: Cara Seru Menikmati Alam Tanpa Ribet di Dataran Tinggi</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/perbedaan-camping-dan-glamping-batu-malang.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Man_setting_up_1.webp</image:loc>
+      <image:title>Apa Perbedaan Camping dan Glamping? Kenali Kelebihan Masing-Masing Sebelum Berangkat</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/rekomendasi-glamping-murah-puncak-staycation.html</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/Safari_tent_on_1.webp</image:loc>
+      <image:title>Rekomendasi Glamping Murah di Puncak untuk Staycation Akhir Pekan yang Berkesan</image:title>
     </image:image>
   </url>
 
