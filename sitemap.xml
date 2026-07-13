@@ -745,4 +745,14 @@
       <image:title>Manfaat Outbound bagi Kegiatan LDKS dan MPLS Sekolah</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/kisaran-biaya-dan-kesalahan-umum-paket-outbound-sekolah.html</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/biaya-outbound-sekolah.webp</image:loc>
+      <image:title>Kisaran Biaya dan Kesalahan Umum Paket Outbound Sekolah</image:title>
+    </image:image>
+  </url>
 </urlset>
