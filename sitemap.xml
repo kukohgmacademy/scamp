@@ -755,4 +755,24 @@
       <image:title>Kisaran Biaya dan Kesalahan Umum Paket Outbound Sekolah</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/program-outbound-edukasi-ldks-siswa-smp-smk-batu.html</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/outbound-edukasi-ldks-smp-smk-batu.webp</image:loc>
+      <image:title>Program Outbound Edukasi LDKS untuk Siswa SMP dan SMK di Batu</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/cara-memilih-program-outbound-ldks-smp-smk-batu.html</loc>
+    <lastmod>2026-07-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/pilih-program-outbound-ldks-smp-smk.webp</image:loc>
+      <image:title>Cara Memilih Program Outbound LDKS SMP dan SMK di Batu</image:title>
+    </image:image>
+  </url>
 </urlset>
