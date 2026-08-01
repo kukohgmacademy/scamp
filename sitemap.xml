@@ -975,4 +975,34 @@
       <image:title>Rute dan Cara ke Pantai Tanjung Penyu dari Malang</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/fasilitas-dan-aktivitas-seru-di-pantai-tanjung-penyu.html</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/gazebo-dan-area-camping-pantai-tanjung-penyu.webp</image:loc>
+      <image:title>Fasilitas dan Aktivitas Seru di Pantai Tanjung Penyu</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/harga-tiket-dan-jam-buka-pantai-tanjung-penyu-terbaru.html</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/loket-masuk-pantai-tanjung-penyu-malang.webp</image:loc>
+      <image:title>Harga Tiket dan Jam Buka Pantai Tanjung Penyu Terbaru</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/wisata-kota-batu-panduan-lengkap-destinasi-biaya-dan-waktu-terbaik-berkunjung.html</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/kota-batu-panorama.webp</image:loc>
+      <image:title>Wisata Kota Batu: Panduan Lengkap Destinasi, Biaya, dan Waktu Terbaik Berkunjung</image:title>
+    </image:image>
+  </url>
 </urlset>
