@@ -93,6 +93,8 @@
             --border-line: rgba(255, 255, 255, 0.15);
         }
 
+        html, body { overflow-x: hidden; max-width: 100vw; }
+
         body {
             background-color: var(--bg-deep);
             color: var(--text-light);
@@ -202,6 +204,7 @@
         .related-card:hover { transform: translateY(-5px); border-color: var(--accent-blue); }
         .related-thumb { aspect-ratio: 16/9; width: 100%; object-fit: cover; }
         .related-content { padding: 20px; }
+        .related-content p { text-align: justify !important; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; word-break: break-word; }
         .related-title a { color: white; text-decoration: none; font-weight: 700; font-family: 'Barlow Condensed'; font-size: 1.2rem; }
 
         /* FOOTER PREMIUM */
@@ -688,3 +691,5 @@
     </script>
 </body>
 </html>
+
+
