@@ -1045,4 +1045,34 @@
       <image:title>Panduan Lengkap Memilih Destinasi Wisata Jawa Timur 2026</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/wisata-alam-jawa-timur-gunung-pantai-dan-air-terjun.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/air-terjun-malang.webp</image:loc>
+      <image:title>Wisata Alam Jawa Timur: Gunung, Pantai, dan Air Terjun</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/wisata-kota-dan-budaya-jawa-timur-surabaya-dan-malang.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/kota-tua-surabaya.webp</image:loc>
+      <image:title>Wisata Kota dan Budaya Jawa Timur: Surabaya dan Malang</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/tips-dan-itinerary-liburan-ke-jawa-timur-untuk-pemula.html</loc>
+    <lastmod>2026-08-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/itinerary-liburan-jawa-timur.webp</image:loc>
+      <image:title>Tips dan Itinerary Liburan ke Jawa Timur untuk Pemula</image:title>
+    </image:image>
+  </url>
 </urlset>
