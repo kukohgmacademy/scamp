@@ -221,11 +221,11 @@
         .share-btn:hover { background: var(--accent-blue); color: white; transform: translateY(-3px); }
 
         /* RELATED POSTS */
-        .related-card { background: var(--bg-panel); border: 1px solid var(--border-line); border-radius: 8px; overflow: hidden; transition: 0.3s; height: 100%; }
+        .related-card { background: var(--bg-panel); border: 1px solid var(--border-line); border-radius: 8px; overflow: hidden; transition: 0.3s; height: 100%; display: flex; flex-direction: column; }
         .related-card:hover { transform: translateY(-5px); border-color: var(--accent-blue); }
         .related-thumb { aspect-ratio: 16/9; width: 100%; object-fit: cover; }
-        .related-content { padding: 20px; }
-        .related-content p { text-align: left !important; word-break: break-word; }
+        .related-content { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; }
+        .related-content p { text-align: justify !important; word-break: break-word; flex-grow: 1; margin-bottom: 20px; }
         .related-title a { color: white; text-decoration: none; font-weight: 700; font-family: 'Barlow Condensed'; font-size: 1.2rem; }
 
         /* FOOTER PREMIUM */
@@ -373,6 +373,26 @@
 
 <p>Petik strawberry Batu adalah aktivitas wisata memetik buah stroberi langsung dari kebun di kawasan Batu dan Pujon, Malang, dengan tiket masuk umumnya berkisar Rp10.000 hingga Rp25.000 per orang.</p>
 
+<div class="toc-box">
+                                <h5 class="toc-title d-flex justify-content-between align-items-center m-0 collapsed"
+                                    data-bs-toggle="collapse" href="#tocCollapse" role="button" aria-expanded="false"
+                                    aria-controls="tocCollapse" style="cursor: pointer;">
+                                    DAFTAR ISI <i class="fas fa-chevron-down fs-6"></i>
+                                </h5>
+                                <div class="collapse mt-3" id="tocCollapse">
+                                    <ul class="toc-list">
+                                        <li><a href="#apa-itu-wisata"><i class="fas fa-angle-right me-2"></i>1. Apa Itu Wisata Petik Strawberry Batu?</a></li>
+                                        <li><a href="#kisaran-harga"><i class="fas fa-angle-right me-2"></i>2. Berapa Kisaran Harga Tiket Masuk Petik Strawberry Batu?</a></li>
+                                        <li><a href="#waktu-terbaik"><i class="fas fa-angle-right me-2"></i>3. Kapan Waktu Terbaik untuk Petik Strawberry di Batu?</a></li>
+                                        <li><a href="#lokasi-terbaik"><i class="fas fa-angle-right me-2"></i>4. Di Mana Lokasi Terbaik Petik Strawberry di Kawasan Batu?</a></li>
+                                        <li><a href="#kesalahan-umum"><i class="fas fa-angle-right me-2"></i>5. Apa Saja Kesalahan Umum Saat Berkunjung ke Kebun Strawberry Batu?</a></li>
+                                        <li><a href="#tips-praktis"><i class="fas fa-angle-right me-2"></i>6. Tips Praktis Sebelum Berkunjung ke Wisata Petik Strawberry Batu</a></li>
+                                        <li><a href="#kesimpulan"><i class="fas fa-angle-right me-2"></i>7. Kesimpulan</a></li>
+                                        <li><a href="#faq"><i class="fas fa-angle-right me-2"></i>FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
 <h2 id="apa-itu-wisata">Apa Itu Wisata Petik Strawberry Batu?</h2>
 <p>Wisata petik strawberry Batu adalah konsep agrowisata di mana pengunjung masuk langsung ke kebun stroberi dan memetik buah dari tanamannya sendiri.</p>
 <p>Konsep ini berkembang di kawasan dataran tinggi Batu dan sekitarnya, termasuk wilayah Pujon di Kabupaten Malang, karena suhu udara yang sejuk cocok untuk budidaya stroberi.</p>
@@ -427,7 +447,15 @@
 <p>Untuk pengalaman terbaik, kunjungi kebun pada pagi hari, konfirmasi ketersediaan buah terlebih dahulu, dan siapkan biaya tambahan jika ingin membawa pulang hasil petikan.</p>
 <p>Untuk panduan lebih detail, simak juga artikel mengenai harga tiket dan lokasi, cara memetik stroberi yang benar, serta rekomendasi kebun terbaik di kawasan Batu pada artikel cluster terkait.</p>
 
-<hr class="border-secondary my-5">
+<div class="baca-juga-box">
+                                <h4>BACA JUGA:</h4>
+                                <ul>
+                                    <li><a href="harga-tiket-petik-strawberry-batu-terbaru.html">Harga Tiket Petik Strawberry Batu Terbaru</a></li>
+                                    <li><a href="rekomendasi-kebun-petik-strawberry-terbaik-di-batu.html">Rekomendasi Kebun Petik Strawberry Terbaik di Batu</a></li>
+                                </ul>
+                            </div>
+
+                            <hr class="border-secondary my-5">
 
 <h2 id="faq" class="mb-4">FAQ</h2>
 <div class="accordion mb-5" id="faqWisata">

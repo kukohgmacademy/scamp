@@ -221,11 +221,11 @@
         .share-btn:hover { background: var(--accent-blue); color: white; transform: translateY(-3px); }
 
         /* RELATED POSTS */
-        .related-card { background: var(--bg-panel); border: 1px solid var(--border-line); border-radius: 8px; overflow: hidden; transition: 0.3s; height: 100%; }
+        .related-card { background: var(--bg-panel); border: 1px solid var(--border-line); border-radius: 8px; overflow: hidden; transition: 0.3s; height: 100%; display: flex; flex-direction: column; }
         .related-card:hover { transform: translateY(-5px); border-color: var(--accent-blue); }
         .related-thumb { aspect-ratio: 16/9; width: 100%; object-fit: cover; }
-        .related-content { padding: 20px; }
-        .related-content p { text-align: left !important; word-break: break-word; }
+        .related-content { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; }
+        .related-content p { text-align: justify !important; word-break: break-word; flex-grow: 1; margin-bottom: 20px; }
         .related-title a { color: white; text-decoration: none; font-weight: 700; font-family: 'Barlow Condensed'; font-size: 1.2rem; }
 
         /* FOOTER PREMIUM */
@@ -372,6 +372,27 @@
                         <div class="article-content">
 
 <p>Wisata Kota Batu menawarkan kombinasi udara pegunungan yang sejuk, taman hiburan keluarga, museum unik, dan kebun wisata petik buah yang tersebar di kawasan lereng Gunung Panderman, Arjuno, dan Welirang di Jawa Timur.</p>
+
+<div class="toc-box">
+                                <h5 class="toc-title d-flex justify-content-between align-items-center m-0 collapsed"
+                                    data-bs-toggle="collapse" href="#tocCollapse" role="button" aria-expanded="false"
+                                    aria-controls="tocCollapse" style="cursor: pointer;">
+                                    DAFTAR ISI <i class="fas fa-chevron-down fs-6"></i>
+                                </h5>
+                                <div class="collapse mt-3" id="tocCollapse">
+                                    <ul class="toc-list">
+                                        <li><a href="#apa-itu-kota-batu"><i class="fas fa-angle-right me-2"></i>1. Apa Itu Kota Batu dan Mengapa Populer Sebagai Destinasi Wisata</a></li>
+                                        <li><a href="#destinasi-wisata-utama"><i class="fas fa-angle-right me-2"></i>2. Apa Saja Destinasi Wisata Utama di Kota Batu</a></li>
+                                        <li><a href="#merencanakan-rute"><i class="fas fa-angle-right me-2"></i>3. Bagaimana Cara Merencanakan Rute Wisata di Kota Batu</a></li>
+                                        <li><a href="#waktu-terbaik"><i class="fas fa-angle-right me-2"></i>4. Kapan Waktu Terbaik Berkunjung ke Kota Batu</a></li>
+                                        <li><a href="#kisaran-biaya"><i class="fas fa-angle-right me-2"></i>5. Berapa Kisaran Biaya Liburan ke Kota Batu</a></li>
+                                        <li><a href="#kesalahan-umum"><i class="fas fa-angle-right me-2"></i>6. Apa Saja Kesalahan Umum yang Dilakukan Wisatawan di Kota Batu</a></li>
+                                        <li><a href="#tips-praktis"><i class="fas fa-angle-right me-2"></i>7. Tips Praktis Berwisata di Kota Batu</a></li>
+                                        <li><a href="#kesimpulan"><i class="fas fa-angle-right me-2"></i>8. Kesimpulan</a></li>
+                                        <li><a href="#faq"><i class="fas fa-angle-right me-2"></i>FAQ</a></li>
+                                    </ul>
+                                </div>
+                            </div>
 
 <h2 id="apa-itu-kota-batu">Apa Itu Kota Batu dan Mengapa Populer Sebagai Destinasi Wisata</h2>
 <p>Kota Batu adalah kota administratif di Jawa Timur yang berbatasan langsung dengan Kabupaten Malang dan dikenal sebagai kawasan wisata pegunungan sejak masa kolonial.</p>

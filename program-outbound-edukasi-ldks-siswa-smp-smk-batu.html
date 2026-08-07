@@ -233,10 +233,10 @@
         .share-btn:hover { background: var(--accent-blue); color: white; transform: translateY(-3px); }
 
         /* RELATED POSTS */
-        .related-card { background: var(--bg-panel); border: 1px solid var(--border-line); border-radius: 8px; overflow: hidden; transition: 0.3s; height: 100%; }
+        .related-card { background: var(--bg-panel); border: 1px solid var(--border-line); border-radius: 8px; overflow: hidden; transition: 0.3s; height: 100%; display: flex; flex-direction: column; }
         .related-card:hover { transform: translateY(-5px); border-color: var(--accent-blue); }
         .related-thumb { aspect-ratio: 16/9; width: 100%; object-fit: cover; }
-        .related-content { padding: 20px; }
+        .related-content { padding: 20px; display: flex; flex-direction: column; flex-grow: 1; }
         .related-content p { text-align: justify !important; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; word-break: break-word; }
         .related-title a { color: white; text-decoration: none; font-weight: 700; font-family: 'Barlow Condensed'; font-size: 1.2rem; }
 
