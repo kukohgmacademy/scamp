@@ -1115,4 +1115,34 @@
       <image:title>Rekomendasi Kebun Petik Strawberry Terbaik di Batu</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/wisata-malang-dreamland.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/wisata-malang-dreamland-perbukitan.webp</image:loc>
+      <image:title>Wisata Malang Dreamland</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/harga-tiket-dan-wahana-malang-dreamland.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/harga-tiket-malang-dreamland-rainbow-slide.webp</image:loc>
+      <image:title>Harga Tiket dan Wahana Malang Dreamland</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rute-menuju-malang-dreamland-dari-berbagai-kota.html</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/rute-malang-dreamland-poncokusumo.webp</image:loc>
+      <image:title>Rute Menuju Malang Dreamland dari Berbagai Kota</image:title>
+    </image:image>
+  </url>
 </urlset>
