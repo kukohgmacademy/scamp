@@ -1145,4 +1145,34 @@
       <image:title>Rute Menuju Malang Dreamland dari Berbagai Kota</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/glamping-dan-cabin-malang-dreamland-untuk-staycation.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/glamping-malang-dreamland-taman-jeruk.webp</image:loc>
+      <image:title>Glamping dan Cabin Malang Dreamland untuk Staycation</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/panduan-lengkap-wisata-bunga-di-batu-2026.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/kebun-bunga-batu.webp</image:loc>
+      <image:title>Panduan Lengkap Wisata Bunga di Batu 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rekomendasi-tempat-wisata-bunga-di-batu-terpopuler.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/rekomendasi-wisata-bunga-batu.webp</image:loc>
+      <image:title>Rekomendasi Tempat Wisata Bunga di Batu Terpopuler</image:title>
+    </image:image>
+  </url>
 </urlset>
