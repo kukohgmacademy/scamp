@@ -1175,4 +1175,24 @@
       <image:title>Rekomendasi Tempat Wisata Bunga di Batu Terpopuler</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/tips-dan-waktu-terbaik-wisata-bunga-di-batu.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/waktu-terbaik-wisata-bunga-batu.webp</image:loc>
+      <image:title>Tips dan Waktu Terbaik Wisata Bunga di Batu</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/biaya-dan-tips-hemat-wisata-bunga-di-batu.html</loc>
+    <lastmod>2026-08-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/biaya-wisata-bunga-batu.webp</image:loc>
+      <image:title>Biaya dan Tips Hemat Wisata Bunga di Batu</image:title>
+    </image:image>
+  </url>
 </urlset>
