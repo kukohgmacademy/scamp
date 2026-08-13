@@ -1215,4 +1215,24 @@
       <image:title>Rekomendasi Pantai di Malang Selatan Terpopuler</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rute-dan-akses-menuju-pantai-malang-selatan.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/jalur-menuju-pantai-malang-selatan.webp</image:loc>
+      <image:title>Rute dan Akses Menuju Pantai Malang Selatan</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/biaya-wisata-pantai-malang-selatan.html</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/loket-tiket-pantai-malang-selatan.webp</image:loc>
+      <image:title>Biaya Wisata Pantai Malang Selatan</image:title>
+    </image:image>
+  </url>
 </urlset>
