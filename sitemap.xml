@@ -1235,4 +1235,24 @@
       <image:title>Biaya Wisata Pantai Malang Selatan</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rekomendasi-wisata-keluarga-di-jawa-timur.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/wisata-keluarga-jatim-taman-batu.webp</image:loc>
+      <image:title>Rekomendasi Wisata Keluarga di Jawa Timur</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/wisata-keluarga-di-malang-dan-batu-ini-rekomendasinya.html</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/jatim-park-2-batu-interaksi-satwa-pengunjung.webp</image:loc>
+      <image:title>Wisata Keluarga di Malang dan Batu, Ini Rekomendasinya</image:title>
+    </image:image>
+  </url>
 </urlset>
