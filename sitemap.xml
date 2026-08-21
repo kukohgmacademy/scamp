@@ -1335,4 +1335,23 @@
       <image:title>Camping, Team Building, atau Outbound? Ini Perbedaan dan Kapan Memilihnya</image:title>
     </image:image>
   </url>
+
+  <url>
+    <loc>https://sunrisecamp.web.id/outbound-atau-team-building-pahami-perbedaan-dan-tujuannya.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/outbound-atau-team-building.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/kegiatan-outbound-untuk-family-gathering-ide-permainan-dan-susunan-acara.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/kegiatan-outbound-family-gathering.webp</image:loc>
+    </image:image>
+  </url>
 </urlset>
