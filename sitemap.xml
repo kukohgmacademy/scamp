@@ -1354,4 +1354,24 @@
       <image:loc>https://sunrisecamp.web.id/asset/kegiatan-outbound-family-gathering.webp</image:loc>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/apa-itu-outbound-pengertian-tujuan-dan-contoh-kegiatannya.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/outbound-team-building-alam-terbuka.webp</image:loc>
+      <image:title>Apa Itu Outbound? Pengertian, Tujuan, dan Contoh Kegiatannya</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/tujuan-outbound-untuk-membangun-kerja-sama-dan-kepemimpinan.html</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/outbound-kerja-sama-tim.webp</image:loc>
+      <image:title>Tujuan Outbound untuk Membangun Kerja Sama dan Kepemimpinan</image:title>
+    </image:image>
+  </url>
 </urlset>
