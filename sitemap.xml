@@ -1534,4 +1534,24 @@
       <image:title>Harga Paket Outbound di Trawas Mojokerto Terbaru 2026</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/outbound-perusahaan-dan-gathering-kantor-di-trawas-mojokerto.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/outbound-gathering-perusahaan-kantor-trawas.webp</image:loc>
+      <image:title>Outbound Perusahaan dan Gathering Kantor di Trawas Mojokerto</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/outbound-sekolah-dan-keluarga-di-trawas-mojokerto.html</loc>
+    <lastmod>2026-09-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/kegiatan-outing-siswa-daerah-trawas.webp</image:loc>
+      <image:title>Outbound Sekolah dan Keluarga di Trawas Mojokerto</image:title>
+    </image:image>
+  </url>
 </urlset>
