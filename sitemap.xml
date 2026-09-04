@@ -1554,4 +1554,24 @@
       <image:title>Outbound Sekolah dan Keluarga di Trawas Mojokerto</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/panduan-lengkap-wisata-di-malang-selatan.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/pantai-eksotis-malang-selatan.webp</image:loc>
+      <image:title>Panduan Lengkap Wisata di Malang Selatan</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/pantai-terbaik-di-malang-selatan-dan-harga-tiketnya.html</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/senja-di-pantai-balekambang-malang.webp</image:loc>
+      <image:title>Pantai Terbaik di Malang Selatan dan Harga Tiketnya</image:title>
+    </image:image>
+  </url>
 </urlset>
