@@ -1558,7 +1558,7 @@
     <loc>https://sunrisecamp.web.id/panduan-lengkap-wisata-di-malang-selatan.html</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/pantai-eksotis-malang-selatan.webp</image:loc>
       <image:title>Panduan Lengkap Wisata di Malang Selatan</image:title>
@@ -1572,6 +1572,26 @@
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/senja-di-pantai-balekambang-malang.webp</image:loc>
       <image:title>Pantai Terbaik di Malang Selatan dan Harga Tiketnya</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/wisata-alam-malang-selatan-selain-pantai.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/keindahan-alam-teluk-semut-sempu.webp</image:loc>
+      <image:title>Wisata Alam Malang Selatan Selain Pantai</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rute-dan-tips-liburan-hemat-ke-malang-selatan.html</loc>
+    <lastmod>2026-09-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/perjalanan-menuju-pantai-malang-selatan.webp</image:loc>
+      <image:title>Rute dan Tips Liburan Hemat ke Malang Selatan</image:title>
     </image:image>
   </url>
 </urlset>
