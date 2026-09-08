@@ -1614,4 +1614,24 @@
       <image:title>Harga dan Paket Rafting Kasembon Terbaru</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rafting-probolinggo-variasi-arung-jeram-sungai-pekalen.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/tantangan-jeram-rafting-sungai-pekalen-probolinggo.webp</image:loc>
+      <image:title>Rafting Probolinggo: Variasi Arung Jeram Sungai Pekalen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/tips-aman-rafting-di-kasembon-dan-probolinggo.html</loc>
+    <lastmod>2026-09-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/briefing-keselamatan-rafting-pemandu-profesional.webp</image:loc>
+      <image:title>Tips Aman Rafting di Kasembon dan Probolinggo</image:title>
+    </image:image>
+  </url>
 </urlset>
