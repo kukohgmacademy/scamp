@@ -1754,4 +1754,24 @@
       <image:title>Kegiatan Kelompok di Alam Terbuka, Dari Fun Activity hingga Team Challenge</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/panduan-lengkap-sewa-bus-pariwisata-trawas-outbound.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/bus-pariwisata-parkir-area-outbound-trawas-jatim.webp</image:loc>
+      <image:title>Panduan Lengkap Sewa Bus Pariwisata Trawas Outbound</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/cara-memilih-bus-pariwisata-outbound-trawas.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/panitia-inspeksi-kondisi-bus-pariwisata-trawas.webp</image:loc>
+      <image:title>Cara Memilih Bus Pariwisata Outbound Trawas</image:title>
+    </image:image>
+  </url>
 </urlset>
