@@ -1774,4 +1774,24 @@
       <image:title>Cara Memilih Bus Pariwisata Outbound Trawas</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/kisaran-biaya-sewa-bus-pariwisata-trawas.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/panitia-menghitung-anggaran-sewa-bus.webp</image:loc>
+      <image:title>Kisaran Biaya Sewa Bus Pariwisata Trawas</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rute-dan-tips-outbound-bus-pariwisata-trawas.html</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/jalur-menanjak-rute-bus-pariwisata.webp</image:loc>
+      <image:title>Rute dan Tips Outbound Bus Pariwisata Trawas</image:title>
+    </image:image>
+  </url>
 </urlset>
