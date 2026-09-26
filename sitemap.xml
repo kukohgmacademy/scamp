@@ -1934,4 +1934,24 @@
       <image:title>Paket dan Harga Outbound di Sumber Podang</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rute-dan-cara-menuju-sumber-podang-untuk-outbound.html</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/rute-sumber-podang-kediri.webp</image:loc>
+      <image:title>Rute dan Cara Menuju Sumber Podang untuk Outbound</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/aktivitas-dan-fasilitas-outbound-di-sumber-podang.html</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/aktivitas-permainan-outbound-sumber-podang.webp</image:loc>
+      <image:title>Aktivitas dan Fasilitas Outbound di Sumber Podang</image:title>
+    </image:image>
+  </url>
 </urlset>
