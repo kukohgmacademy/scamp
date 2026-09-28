@@ -1954,4 +1954,24 @@
       <image:title>Aktivitas dan Fasilitas Outbound di Sumber Podang</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/tempat-outbound-yang-ada-di-lereng-wilis-kediri.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/tempat-outbound-lereng-gunung-wilis-kediri.webp</image:loc>
+      <image:title>Tempat Outbound yang Ada di Lereng Wilis Kediri</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/aktivitas-kegiatan-outbound-untuk-tim-sekolah-dan-keluarga-di-lereng-wilis-kediri.html</loc>
+    <lastmod>2026-09-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/permainan-tim-outbound-wilis.webp</image:loc>
+      <image:title>Aktivitas Kegiatan Outbound untuk Tim, Sekolah, dan Keluarga di Lereng Wilis Kediri</image:title>
+    </image:image>
+  </url>
 </urlset>
