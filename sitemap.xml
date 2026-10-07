@@ -2079,7 +2079,7 @@
     <loc>https://sunrisecamp.web.id/rundown-dan-ide-kegiatan-meeting-glamping-di-batu.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/sesi-diskusi-pagi-glamping-batu.webp</image:loc>
       <image:title>Sesi diskusi pagi peserta meeting glamping di area terbuka Batu dengan pemandangan pegunungan</image:title>
@@ -2089,10 +2089,30 @@
     <loc>https://sunrisecamp.web.id/biaya-dan-anggaran-meeting-glamping-di-batu.html</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
     <image:image>
       <image:loc>https://sunrisecamp.web.id/asset/penyusunan-anggaran-meeting-glamping-batu.webp</image:loc>
       <image:title>Tim panitia menyusun anggaran meeting glamping di Batu dengan rincian komponen biaya</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/panduan-lengkap-konsep-meeting-alam-terbuka-batu.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/konsep-meeting-alam-terbuka-batu.webp</image:loc>
+      <image:title>Konsep meeting alam terbuka di Batu untuk perusahaan</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/cara-memilih-lokasi-venue-meeting-alam-terbuka-batu.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/lokasi-meeting-alam-terbuka-batu.webp</image:loc>
+      <image:title>Pemilihan lokasi venue meeting alam terbuka di Batu</image:title>
     </image:image>
   </url>
 </urlset>
