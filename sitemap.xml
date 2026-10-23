@@ -2305,4 +2305,14 @@
       <image:title>Peserta meeting outdoor menikmati coffee break di taman kantor dengan kopi dan camilan ringan</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/menu-coffee-break-outdoor.html</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/menu-coffee-break-outdoor.webp</image:loc>
+      <image:title>Aneka menu coffee break outdoor berupa kopi, kue kering, dan buah segar yang tertata rapi di meja terbuka</image:title>
+    </image:image>
+  </url>
 </urlset>
