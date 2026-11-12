@@ -2395,4 +2395,14 @@
       <image:title>Harga Tiket Air Terjun Pacet Mojokerto per Lokasi dan Biaya Tambahan</image:title>
     </image:image>
   </url>
+  <url>
+    <loc>https://sunrisecamp.web.id/rute-ke-air-terjun-pacet-mojokerto.html</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://sunrisecamp.web.id/asset/jalan-menuju-pacet-mojokerto.webp</image:loc>
+      <image:title>Rute ke Air Terjun Pacet Mojokerto dari Surabaya Malang dan Kota Mojokerto</image:title>
+    </image:image>
+  </url>
 </urlset>
